@@ -1,0 +1,54 @@
+{
+    "env": {
+        "browser": true,
+        "amd": true,
+        "jquery": true
+    },
+    "globals": {
+        "dojo":true,
+        "angular":true,
+        "couchPotato":true,
+        "ActiveXObject":true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console":"off",
+        "block-scoped-var": "error",
+        "complexity": "error",
+        "curly": "error",
+        "default-case": "error",       
+        "dot-notation": [
+            "error",
+            {
+                "allowKeywords": false
+            }
+        ],
+        "eqeqeq": [
+            "error",
+            "smart"
+        ],
+        "no-eq-null": "error",
+        "no-floating-decimal": "error",
+        "no-implicit-globals": "error",
+        "no-invalid-this": "error",
+        "no-lone-blocks": "error",
+        "no-multi-str": "error",
+        "no-unused-expressions": "warn",
+        "wrap-iife": [
+            "error",
+            "any"
+        ],
+        "no-catch-shadow": "error",
+        "no-unused-vars":"warn",
+        "no-use-before-define": "error",
+        "brace-style": "error"
+    }
+}
